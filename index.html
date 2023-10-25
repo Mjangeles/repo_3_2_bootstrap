@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+   <title>Shop</title>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" align="right">
+        <a class="navbar-brand" href="#" <font color="#113946" size="5" face="AR JULIAN"> Apple Store </a></font>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            </ul></div>
+        <nav class="navbar navbar-light bg-dark" align-right>
+            <font class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color:#FFF2D8">Search</button></font>
+              
+              <style>
+    
+                .modal-overlay {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #FFFFFF;
+                    z-index: 1;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+               
+                .modal-content {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color:#DCDC07;
+                    padding: 20px;
+                    border: 1px solid #DCDC07;
+                    border-radius: 5px;
+                }
+            </style>
+            <center>
+        
+        <button onclick="openLoginModal()" button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color:#FFF2D8">Login</button>
+        
+        
+        <div id="loginModal" class="modal-overlay">
+            <div class="modal-content">
+                <h2 >Login</h2>
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+        
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+        
+                    <input type="submit" style="background-color:#444FCF" value="Login">
+                </form><br>
+                <button onclick="closeLoginModal()"  style="background-color:#444FCF" >Close</button>
+            </div>
+        </div>
+        
+        <script>
+        
+            function openLoginModal() {
+                document.getElementById('loginModal').style.display = 'block';
+            }
+        
+            function closeLoginModal() {
+                document.getElementById('loginModal').style.display = 'none';
+            }
+        </script>
+        </center>
+        </form>
+          </nav>
+     </nav>
+     <hr>
+     <center>
+    <table>
+        <th>
+     <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-12-purple-2021?wid=2000&hei=1897&fmt=jpeg&qlt=95&.v=1635202738000" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">Iphone 12</h5></font>
+          <p class="card-text">Super Retina XDR display.
+            6.1‑inch (diagonal) all‑screen OLED display.
+            2532‑by‑1170-pixel resolution at 460 ppi.
+            HDR display.
+            True Tone.
+            Wide color (P3)
+            Haptic Touch.
+            2,000,000:1 contrast ratio (typical)</p>
+          <p class="price">$499.99</p>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color:#FFF2D8">Add to cart</button>
+        </div>
+      </div>
+    </th>
+    <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-max-gold-2023?wid=2000&hei=1897&fmt=jpeg&qlt=95&.v=1679072988850" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">Iphone 13 </h5></font>
+             <p class="card-text"> Super Retina XDR display
+                6.1‑inch (diagonal) all‑screen OLED display
+                2532‑by‑1170-pixel resolution at 460 ppi
+                HDR display
+                True Tone
+                Wide color (P3)
+                Haptic Touch
+                2,000,000:1 contrast ratio (typical)
+                
+               
+                </p>
+             <p class="price">$599.00</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color:#FFF2D8">Add to cart</button>
+           </div>
+         </div>
+       </th>
+       <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/03/RNv773NiNzhxaQ3WJn344g-1200-80.jpg?fit=1200%2C675&ssl=1" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">Iphone 14</h5></font>
+             <p class="card-text">HDR display
+                True Tone
+                Wide color (P3)
+                Haptic Touch
+                2,000,000:1 contrast ratio (typical)
+                800 nits max brightness (typical); 1,200 nits peak 
+                brightness (HDR) Fingerprint-resistant-resistant oleophobic coating
+                Support for display of multiple languages and characters simultaneously
+                Rated IP68 (maximum depth of 6 meters up to 30 minutes)  
+               
+
+                
+                 </p>
+             <p class="price">$699.00</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color:#FFF2D8">Add to cart</button>
+           </div>
+         </div>
+       </th>
+       <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="https://i.guim.co.uk/img/media/18badfc0b64b09f917fd14bbe47d73fd92feeb27/189_335_5080_3048/master/5080.jpg?width=465&dpr=1&s=none" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">Iphone 15</h5></font>
+             <p class="card-text">Dynamic Island
+                HDR display
+                True Tone
+                Wide color (P3)
+                Haptic Touch
+                2,000,000:1 contrast ratio (typical)
+                1,000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor)
+                Fingerprint-resistant oleophobic coating 16‑core Neural Engine
+                <p>A16 Bionic chip</p>
+              
+                  </p>
+             <p class="price">$799.00</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color:#FFF2D8">Add to cart</button>
+           </div>
+         </div>
+       </th>
+   
+    </table>
+</center>
+<hr>
+  </body>
